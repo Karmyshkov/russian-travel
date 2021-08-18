@@ -1,0 +1,13 @@
+.header__item {
+  list-style: none;
+  margin-right: 18px;
+  transition: 0.3s opacity;
+}
+
+.header__item:last-child {
+  margin: 0;
+}
+
+.header__item:hover {
+  opacity: 0.8;
+}
