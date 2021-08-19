@@ -1,0 +1,8 @@
+.photo-grid__item {
+  max-width: 100%;
+  transition: 0.3s transform;
+}
+
+.photo-grid__item:hover {
+  transform: scale(1.05);
+}
