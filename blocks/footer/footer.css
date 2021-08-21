@@ -9,13 +9,7 @@
   -ms-flex-align: center;
   align-items: center;
   max-width: 1184px;
-  width: 100%;
-}
-
-@media screen and (max-width: 1024px) {
-  .footer {
-    padding: 0 48px;
-  }
+  padding: 0 48px;
 }
 
 @media screen and (max-width: 896px) {
@@ -24,7 +18,7 @@
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 750px) {
   .footer {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -33,7 +27,7 @@
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 488px) {
   .footer {
     display: block;
   }

@@ -8,6 +8,7 @@
   -ms-flex-item-align: start;
   align-self: flex-start;
   margin-top: 8px;
+  text-transform: uppercase;
 }
 
 @media screen and (max-width: 768px) {

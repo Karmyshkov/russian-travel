@@ -3,3 +3,9 @@
   -ms-flex-order: 4;
   order: 4;
 }
+
+@media screen and (max-width: 574px) {
+  .places__inner {
+    margin-left: 16px;
+  }
+}

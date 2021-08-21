@@ -6,13 +6,13 @@
   display: flex;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 750px) {
   .footer__list {
     margin-bottom: 30px;
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 488px) {
   .footer__list {
     display: block;
     margin-bottom: 48px;

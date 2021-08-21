@@ -6,3 +6,9 @@
   -ms-grid-row-align: end;
   align-self: end;
 }
+
+@media screen and (max-width: 574px) {
+  .places__website {
+    margin-left: 16px;
+  }
+}

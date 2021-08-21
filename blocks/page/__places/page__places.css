@@ -13,3 +13,10 @@
     margin-top: 64px;
   }
 }
+
+@media screen and (max-width: 574px) {
+  .page__places {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
