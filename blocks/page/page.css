@@ -1,4 +1,5 @@
 .page {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   font-family: var(--ff-primary);
   font-weight: 400;
@@ -8,7 +9,18 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   padding: 28px 0 24px;
+}
+
+@media screen and (max-width: 574px) {
+  .page {
+    padding: 16px 0 24px;
+  }
 }

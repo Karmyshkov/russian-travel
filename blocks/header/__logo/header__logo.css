@@ -1,11 +1,18 @@
 .header__logo {
   width: 176px;
   height: 52px;
+  -o-object-fit: contain;
   object-fit: contain;
+  -webkit-transition: 0.3s -webkit-transform;
+  transition: 0.3s -webkit-transform;
+  -o-transition: 0.3s transform;
   transition: 0.3s transform;
+  transition: 0.3s transform, 0.3s -webkit-transform;
 }
 
 .header__logo:hover {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
   transform: scale(1.05);
 }
 
@@ -15,10 +22,3 @@
     height: 45px;
   }
 }
-
-/* @media screen and (max-width: 720px) {
-  .header__link {
-    width: 142px;
-    height: 42px;
-  }
-} */

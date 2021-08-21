@@ -1,6 +1,8 @@
 .places__place {
   list-style: none;
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: minmax(310px, 440px) 40px minmax(322px, 456px);
   grid-template-columns: minmax(310px, 440px) minmax(322px, 456px);
   gap: 48px 40px;
   margin-bottom: 80px;
@@ -32,12 +34,14 @@
 
 @media screen and (max-width: 702px) {
   .places__place {
+    -ms-grid-columns: minmax(230px, 310px) minmax(280px, 322px);
     grid-template-columns: minmax(230px, 310px) minmax(280px, 322px);
   }
 }
 
 @media screen and (max-width: 574px) {
   .places__place {
+    -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
     gap: 32px;
   }

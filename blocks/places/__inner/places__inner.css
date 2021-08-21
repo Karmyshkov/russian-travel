@@ -1,3 +1,5 @@
 .places__inner {
+  -webkit-box-ordinal-group: 5;
+  -ms-flex-order: 4;
   order: 4;
 }
