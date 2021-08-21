@@ -7,11 +7,8 @@
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
-  max-width: 1280px;
-  margin: 0 auto;
-  min-width: 1184px;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  padding: 28px 48px 24px;
+  padding: 28px 0 24px;
 }

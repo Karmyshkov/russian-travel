@@ -1,11 +1,44 @@
 .places__place {
   list-style: none;
   display: grid;
-  grid-template-columns: 460px 484px;
+  grid-template-columns: minmax(310px, 440px) minmax(322px, 456px);
   gap: 48px 40px;
   margin-bottom: 80px;
 }
 
 .places__place:last-child {
   margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .places__place {
+    gap: 48px 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places__place {
+    gap: 48px 28px;
+    margin-bottom: 73px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .places__place {
+    margin-bottom: 50px;
+    gap: 38px 16px;
+  }
+}
+
+@media screen and (max-width: 702px) {
+  .places__place {
+    grid-template-columns: minmax(230px, 310px) minmax(280px, 322px);
+  }
+}
+
+@media screen and (max-width: 574px) {
+  .places__place {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
 }

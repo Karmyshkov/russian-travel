@@ -8,3 +8,17 @@
 .header__logo:hover {
   transform: scale(1.05);
 }
+
+@media screen and (max-width: 720px) {
+  .header__logo {
+    width: 151px;
+    height: 45px;
+  }
+}
+
+/* @media screen and (max-width: 720px) {
+  .header__link {
+    width: 142px;
+    height: 42px;
+  }
+} */

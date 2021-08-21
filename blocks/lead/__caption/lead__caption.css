@@ -6,4 +6,18 @@
   line-height: 14px;
   letter-spacing: 1.5px;
   align-self: flex-start;
+  margin-top: 8px;
+}
+
+@media screen and (max-width: 768px) {
+  .lead__caption {
+    margin-left: 24px;
+  }
+}
+
+@media screen and (max-width: 574px) {
+  .lead__caption {
+    font-size: 10px;
+    margin-left: 16px;
+  }
 }
