@@ -14,7 +14,7 @@
   align-items: flex-end;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1224px) {
   .header {
     padding: 0 48px;
   }
